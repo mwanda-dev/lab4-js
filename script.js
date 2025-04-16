@@ -70,7 +70,7 @@ if (sliderImage) {
     setInterval(() => {
         currentImage = (currentImage + 1) % sliderImages.length;
         sliderImage.src = sliderImages[currentImage];
-    }, 5000);
+    }, 4000);
 }
 
 // Back to top button
